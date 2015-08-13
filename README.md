@@ -40,7 +40,7 @@ Find view and set listener for load more.The Activity or the Fragment should imp
 
 ### Step 3
 
-Set the adapter.When the AutoLoadListView scroll to the bottom,it would call the method ```Java onLoadMore();```
+Set the adapter.When the AutoLoadListView scroll to the bottom,it would call the method ```onLoadMore();```
 
 ```Java
  mAdapter = new ArrayAdapter(mContext,android.R.layout.simple_list_item_1,android.R.id.text1,data);
